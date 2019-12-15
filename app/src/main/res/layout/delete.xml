@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/delete_textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="删除单词" />
+
+    <TextView
+        android:id="@+id/delete_textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确认要删除此单词吗？" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/delete_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="取消" />
+
+        <Button
+            android:id="@+id/delete_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="确认" />
+    </LinearLayout>
+</LinearLayout>
